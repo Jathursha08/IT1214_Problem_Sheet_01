@@ -63,6 +63,7 @@ class Bank {
         }
     }
 
+
     public static void main(String[] args) {
         Bank bank = new Bank();
         bank.addAccount(new BankAccount(1001, "Alice", 5000));
