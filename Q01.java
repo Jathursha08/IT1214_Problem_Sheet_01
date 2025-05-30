@@ -68,7 +68,7 @@ class Student {
             if (students[i].getStudentId() == studentid) {
                 students[i].setDaysAttended(newDaysAttended);
                 System.out.println("Attendance updated for student ID " + studentid);
-                show = true;
+                find = true;
                 break;
             }
         }
