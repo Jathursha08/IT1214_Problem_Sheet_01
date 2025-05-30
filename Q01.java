@@ -63,7 +63,7 @@ class Student {
 
     
     public void updateAttendance(int studentid, int newDaysAttended) {
-        boolean show = false;
+        boolean find = false;
         for (int i = 0; i < count; i++) {
             if (students[i].getStudentId() == studentid) {
                 students[i].setDaysAttended(newDaysAttended);
