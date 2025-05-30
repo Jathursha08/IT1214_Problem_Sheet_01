@@ -72,7 +72,7 @@ class Student {
                 break;
             }
         }
-        if (!show) {
+        if (!find) {
             System.out.println("Student ID " + studentid + " not found.");
         }
     }
